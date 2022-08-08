@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+body{
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-color: hsl(300, 24%, 96%);
+    font-family:'Spartan', sans-serif;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+.container1{
+    width: 90%;
+    margin:30px auto;
+    margin-top: 30px;
+}
+
+.card{
+    text-align: center;
+    margin: 60px;
+}
+
+.form-a h2{
+    font-size: 2.4rem;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.form-a p{
+    argin: 30px 0;
+    font-weight: 500;
+    font-size: 1em;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.4em;
+}
+
+.card-a,.card-b,.card-c{
+    background-color: hsl(273, 21%, 92%);
+    border-radius: 20px;
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+.smart{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.container2{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.container2 p{
+    margin-top: 25px;
+    line-height: 20px;
+    font-size: .em;
+    font-weight: 500;
+}
+
+.container2 h6{
+    font-size: 15px;
+}
+
+
+.second-a,.second-b,.second-c{
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+.customer-info{
+    margin-left: 25px;
+    vertical-align: auto;
+
+
+}
+
+
+.customer-info h4{
+    font-size: 15px;
+    padding-bottom: 4px;
+    margin-top: 90px;
+
+}
+
+ .customer{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.cert{
+    color: hsl(333, 80%, 67%);
+    font-size: 16px;
+    font-weight: 400;
+   
+   
+}
+.cost{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    line-height: 0.5em;
+    width: 150px;
+   height: 200px;
+
+}
+
+.form-b{
+    font-size: 15px;
+}
+
+.form-b h6{
+    color:hsl(300, 43%, 22%) ;
+}
+
+.bio-info{
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width: 500px){
+    .container1{
+        width: 80%;
+        
+             }
+    }  
+    
+    @media screen and (min-width: 900px)
+{
+    body{
+        background-color: hsl(300, 24%, 96%);
+        font-family: 'Spartan', sans-serif;
+        background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg) ;
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+        background-size:  500px, 75%;
+    }
+
+    .container1{
+        width: 90%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .card{
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        position: relative;
+        margin: 120px 0 30px;
+
+    }
+
+    .form-a {
+        width:400px ;
+    }
+
+    .form-a h2{
+        width:350px ;
+    }
+
+    .form-a p{
+        font-size: 15px;
+        line-height: 1.8em;
+    }
+
+    .card-a{
+        display: flex;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 7px;
+        position: relative;
+        left: -120px;
+        margin-right: 100px;
+       
+        
+    }
+
+    .card-a h6{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+    
+    .card-b{
+        display: flex;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 7px;
+        position: relative;
+        left: -60px;
+        margin-right: 90px;
+        
+    }
+
+    .card-b h6{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+    .card-c{
+        display: flex;
+        width: 400px;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 7px;
+        margin-right: 80px;
+       
+    }
+
+    
+    .card-c h6{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+    .container2 p{
+        font-size: 15px;
+    }
+
+    .container2 {
+        grid-auto-rows: minmax(30px, auto);
+    }
+
+    .second-a,.second-b,.second-c {
+        padding: 25px;
+    }
+
+    
+    .second-a {
+        grid-column: 1/5;
+        position: relative;
+        bottom: 25px;
+      
+    }
+
+
+    .second-b {
+        padding: 35px;
+        grid-column: 5/9;
+        position: relative;
+        bottom: 10px;
+       
+    }
+
+
+    .second-c {
+        grid-column: 9/13;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
